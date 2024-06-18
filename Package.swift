@@ -24,7 +24,7 @@ let package = Package(
             name: "TikTokBusinessSDK",
             dependencies: [],
             path: "TikTokBusinessSDK",
-            publicHeadersPath: "Public",
+            publicHeadersPath: "./",
             cSettings: [
                 .headerSearchPath("./"),
                 .headerSearchPath("AppEvents"),
